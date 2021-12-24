@@ -20,14 +20,7 @@ func main() {
 
 	group := router.Group("/go")
 
-	// 复购
-	route.AddFugou(group)
-	// 费用数据
-	route.AddFee(group)
-	// 客户数据
-	route.AddClient(group)
-	// 业务员数据
-	route.AddSaleman(group)
+	route.AddTest(group)
 
 	router.Run(":" + *port)
 }
