@@ -1,8 +1,7 @@
-package route
+package routers
 
 import (
 	"github.com/gin-gonic/gin"
-	"micro/upperspective/app/controller"
 	"micro/upperspective/app/middleWare"
 )
 

@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"github.com/gin-gonic/gin"
-	"micro/upperspective/app/route"
+	"micro/upperspective/app/routers"
 	"runtime"
 )
 
@@ -20,7 +20,7 @@ func main() {
 
 	group := router.Group("/go")
 
-	route.AddTest(group)
+	routers.AddTest(group)
 
 	router.Run(":" + *port)
 }
