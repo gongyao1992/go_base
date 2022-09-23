@@ -2,3 +2,4 @@ vendor/
 app/var/
 ./conf.ini
 .idea/
+/runtime/

@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/gin-gonic/gin"
-	"micro/upperspective/app/middleWare"
+	"xiangxin/go-base/app/middleWare"
 )
 
 func AddTest(g *gin.RouterGroup)  {
@@ -10,5 +10,6 @@ func AddTest(g *gin.RouterGroup)  {
 
 	rg.Use(middleWare.MiddleWare())
 
-	rg.GET("/ping", controller.Ping)
+
+	rg.GET("/ping", )
 }

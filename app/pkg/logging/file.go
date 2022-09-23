@@ -2,10 +2,10 @@ package logging
 
 import (
 	"fmt"
-	"github.com/gongyao1992/go-gin-example/pkg/file"
-	"github.com/gongyao1992/go-gin-example/pkg/setting"
 	"os"
 	"time"
+	"xiangxin/go-base/app/pkg/file"
+	"xiangxin/go-base/app/pkg/setting"
 )
 
 var (
