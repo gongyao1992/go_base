@@ -1,6 +1,6 @@
 package export
 
-import "xiangxin/go-base/app/pkg/setting"
+import "xiangxin/monitor/app/pkg/setting"
 
 func GetExcelFullUrl(name string) string {
 	return setting.AppSetting.PrefixUrl + "/" + GetExcelPath() + name

@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/gin-gonic/gin"
-	"xiangxin/go-base/app/middleWare"
+	"xiangxin/monitor/app/middleWare"
 )
 
 func AddTest(g *gin.RouterGroup)  {

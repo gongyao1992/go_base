@@ -2,7 +2,7 @@ package util
 
 import (
 	"time"
-	"xiangxin/go-base/app/pkg/setting"
+	"xiangxin/monitor/app/pkg/setting"
 
 	jwt "github.com/dgrijalva/jwt-go"
 )

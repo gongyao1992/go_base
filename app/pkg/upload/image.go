@@ -2,10 +2,10 @@ package upload
 
 import (
 	"fmt"
-	"xiangxin/go-base/app/pkg/file"
-	"xiangxin/go-base/app/pkg/logging"
-	"xiangxin/go-base/app/pkg/setting"
-	"xiangxin/go-base/app/pkg/util"
+	"xiangxin/monitor/app/pkg/file"
+	"xiangxin/monitor/app/pkg/logging"
+	"xiangxin/monitor/app/pkg/setting"
+	"xiangxin/monitor/app/pkg/util"
 	"log"
 	"mime/multipart"
 	"os"

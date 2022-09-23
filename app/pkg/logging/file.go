@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 	"time"
-	"xiangxin/go-base/app/pkg/file"
-	"xiangxin/go-base/app/pkg/setting"
+	"xiangxin/monitor/app/pkg/file"
+	"xiangxin/monitor/app/pkg/setting"
 )
 
 var (

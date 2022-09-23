@@ -2,7 +2,7 @@ package app
 
 import (
 	"github.com/gin-gonic/gin"
-	"xiangxin/go-base/app/pkg/e"
+	"xiangxin/monitor/app/pkg/e"
 )
 
 type Gin struct {
